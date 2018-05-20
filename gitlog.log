@@ -1,0 +1,85 @@
+
+ASUS@bh-laptop MINGW64 /d/Dev
+$ ls
+competitive-programming/  src_tut/                 Try-Django-1.11-master.zip
+panda/                    Try-Django-1.11-master/
+
+ASUS@bh-laptop MINGW64 /d/Dev
+$ cd competitive-programming/
+
+ASUS@bh-laptop MINGW64 /d/Dev/competitive-programming
+$ ls
+category/  poblems/  README.md
+
+ASUS@bh-laptop MINGW64 /d/Dev/competitive-programming
+$ git init
+Initialized empty Git repository in D:/Dev/competitive-programming/.git/
+
+ASUS@bh-laptop MINGW64 /d/Dev/competitive-programming (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        README.md
+        category/
+        poblems/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ASUS@bh-laptop MINGW64 /d/Dev/competitive-programming (master)
+$ git add --all
+
+ASUS@bh-laptop MINGW64 /d/Dev/competitive-programming (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   README.md
+        new file:   category/README.md
+        new file:   category/permutation-combination/README.md
+        new file:   poblems/README.md
+
+
+ASUS@bh-laptop MINGW64 /d/Dev/competitive-programming (master)
+$ git commit -m "initial commit"
+[master (root-commit) 9c75cb2] initial commit
+ 4 files changed, 59 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 category/README.md
+ create mode 100644 category/permutation-combination/README.md
+ create mode 100644 poblems/README.md
+
+ASUS@bh-laptop MINGW64 /d/Dev/competitive-programming (master)
+$ git remote add origin https://github.com/belal-bh/competitive-programming.git
+
+ASUS@bh-laptop MINGW64 /d/Dev/competitive-programming (master)
+$ git push -u origin master
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+Username for 'https://github.com': belal-bh
+Counting objects: 9, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (9/9), 1.38 KiB | 1.38 MiB/s, done.
+Total 9 (delta 0), reused 0 (delta 0)
+To https://github.com/belal-bh/competitive-programming.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+ASUS@bh-laptop MINGW64 /d/Dev/competitive-programming (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+ASUS@bh-laptop MINGW64 /d/Dev/competitive-programming (master)
+$
