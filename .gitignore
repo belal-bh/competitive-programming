@@ -6,8 +6,9 @@ Scripts/
 tcl/
 *.sublime-workspace
 
-# .exe file
+# .exe and .log file
 *.exe
+*.log
 
 # inputf.txt and outputf.txt
 inputf.txt
