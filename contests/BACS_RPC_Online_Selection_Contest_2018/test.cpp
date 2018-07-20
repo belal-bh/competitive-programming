@@ -2,12 +2,8 @@
 using namespace std;
 
 int main(){
-    int a,b,sum;
-    cout<<"enter numbers:\n";
-    cin>>a>>b;
-    /*a=10;
-    b=12;*/
-    sum=a+b;
-    cout<<sum<<endl;
+    int a,b,c;
+    cin>>a>>b>>c;
+    cout<<__gcd(a,__gcd(b,c));
     return 0;
 }
