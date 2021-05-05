@@ -1,5 +1,6 @@
-import random
-# t = int(input())
+import random\
+
+t = int(input())
 
 
 def solve(n_str):
@@ -16,6 +17,14 @@ def solve(n_str):
     return res
 
 
+while t > 0:
+    t -= 1
+    n_str = input()
+    print(solve(n_str))
+
+#### TEST ####
+'''
+
 def slow(n_str):
     n = int(n_str)
     res = 0
@@ -30,12 +39,6 @@ def slow(n_str):
     return res
 
 
-# while t > 0:
-#     t -= 1
-#     n_str = input()
-#     print(solve(n_str))
-
-#### TEST ####
 i = 0
 while i < 1000:
     i += 1
@@ -48,3 +51,4 @@ while i < 1000:
         break
     else:
         print(f"OK {n_str} -> {a}, {b} => dif:{a-b}")
+'''
